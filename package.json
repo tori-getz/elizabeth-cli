@@ -1,0 +1,31 @@
+{
+  "name": "elizabeth-sdk",
+  "version": "0.1.0",
+  "description": "Elizabeth SDK",
+  "main": "src/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tori-getz/elizabeth-cli.git"
+  },
+  "keywords": [
+    "elizabeth",
+    "genesis",
+    "games"
+  ],
+  "author": "tori",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tori-getz/elizabeth-cli/issues"
+  },
+  "homepage": "https://github.com/tori-getz/elizabeth-cli#readme",
+  "dependencies": {
+    "copy-dir": "^1.3.0",
+    "enquirer": "^2.3.6",
+    "image-size": "^0.8.3",
+    "rimraf": "^3.0.2",
+    "tymlogger": "^1.0.0"
+  },
+  "bin": {
+    "elizabeth-cli": "./bin/elizabeth-cli.js"
+  }
+}
