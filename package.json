@@ -1,6 +1,6 @@
 {
   "name": "elizabeth-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Elizabeth CLI",
   "main": "src/main.js",
   "repository": {

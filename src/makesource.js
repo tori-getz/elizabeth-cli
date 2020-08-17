@@ -124,10 +124,7 @@ void ${entitie.name}_ENTITY () {
         }
 
         code += `\n\n// # ${scene.name} entities end # //`;
-
-        const sceneBackgroundColor = hexToRGB(scene.background);
-        const rawBackground = `0000${sceneBackgroundColor[0]}0${sceneBackgroundColor[1]}0${sceneBackgroundColor[2]}0`;
-
+        
         code += `
 
 void ${scene.name}_SCENE () {
