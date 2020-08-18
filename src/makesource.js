@@ -1,6 +1,7 @@
 
 const path = require("path");
 const fs = require("fs");
+const _ = require("lodash");
 
 let mainSceneIndex = "NONE";
 
@@ -187,7 +188,7 @@ Sprite* SplashScreen_SPRITE; // Splash Screen Sprite
 
 // ### USER VARIABLES ### //
 
-${userVariables(project.variables)}
+${!_.isEmpty(project.variables) ? userVariables(project.variables) : "// # NONE # //"}
 
 // ### USER VARIABLES END ### //
 

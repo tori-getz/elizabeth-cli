@@ -18,7 +18,7 @@ module.exports = {
     scenes: [
         {
             name: "MainScene",
-            background: "#000000",
+            background: "000000",
             joyhandler: "JoyHandler",
             entities: []
         }
