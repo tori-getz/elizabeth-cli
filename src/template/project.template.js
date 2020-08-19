@@ -1,4 +1,6 @@
 
+const uniqid = require("uniqid");
+
 module.exports = {
     name: "",
     emulator: "",
@@ -7,6 +9,7 @@ module.exports = {
         sprites: [],
         code: [
             {
+                id: uniqid(),
                 name: "JoyHandler",
                 path: "JoyHandler.c",
                 type: "joyhandler"
@@ -17,6 +20,7 @@ module.exports = {
     mainScene: "MainScene",
     scenes: [
         {
+            id: uniqid(),
             name: "MainScene",
             background: "000000",
             joyhandler: "JoyHandler",

@@ -1,6 +1,6 @@
 {
   "name": "elizabeth-cli",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Elizabeth CLI",
   "main": "src/main.js",
   "repository": {
@@ -25,7 +25,8 @@
     "image-size": "^0.8.3",
     "lodash": "^4.17.20",
     "rimraf": "^3.0.2",
-    "tymlogger": "^1.0.0"
+    "tymlogger": "^1.0.0",
+    "uniqid": "^5.2.0"
   },
   "bin": {
     "elizabeth-cli": "./bin/elizabeth-cli.js"
