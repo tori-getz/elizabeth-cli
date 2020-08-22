@@ -36,12 +36,16 @@ Get Elizabeth CLI help
 ## SDK Documentation
 <b>TODO</b>
 
-## Install for develop cli
+## LICENSE
+in file [LICENSE](LICENSE)
+
+## Dev
+<b> Run this commands: </b>
 ```
 > git clone https://github.com/tori-getz/elizabeth-cli.git
 > cd elizabeth-cli
+> npm install
 > npm link
 ```
 
-## LICENSE
-in file [LICENSE](LICENSE)
+<b> Happy hacking! =) </b>
