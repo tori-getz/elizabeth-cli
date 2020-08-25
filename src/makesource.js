@@ -119,7 +119,7 @@ void ${entitie.name}_INIT () {
 
 void ${entitie.name}_ENTITY () {
     ${entitie.code}_CODE();
-    SPR_setPosition(${entitie.name}_SPRITE, ${entitie.name}_X + ${entitie.name}_Velocity_X, ${entitie.name}_Y + ${entitie.name}_Velocity_Y);
+    SPR_setPosition(${entitie.sprite}_SPRITE, ${entitie.name}_X + ${entitie.name}_Velocity_X, ${entitie.name}_Y + ${entitie.name}_Velocity_Y);
 }
             `;
         }
